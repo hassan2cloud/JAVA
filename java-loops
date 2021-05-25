@@ -1,5 +1,14 @@
 do
-do
+do {
  statement
-while { condition }
+ }
+while ( condition );
+
+int val = 5;
+do
+{
+val = val++;
+System.out.println(val);
+}
+while ( val < 25 );
 -----------------------------
