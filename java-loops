@@ -1,4 +1,17 @@
-do
+while-loop
+--------------
+while ( condition )
+ { statement }
+ 
+ int val = 5;
+ while (val < 5)
+ {
+ System.out.println('Hassan');
+ }
+
+
+-------------------
+do-loop
 do {
  statement
  }
